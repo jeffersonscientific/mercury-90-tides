@@ -1,0 +1,29 @@
+# work output paths:
+workdir*/
+exec_*/
+
+exec_spectral.mazama/
+
+._*
+
+*.err
+*.out
+data/
+#
+#
+*.png
+*.jpg
+*.dat
+*.avi
+*.pyc
+
+# because this is so compiler sensitive, let's exclude .o and all other compiled objects.
+*.o
+*.mod
+
+.DS_Store
+._.DS_Store
+
+# TODO: also, cut-paste standard Python .gitignore
+*.pyc
+

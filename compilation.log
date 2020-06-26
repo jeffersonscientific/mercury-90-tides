@@ -1,0 +1,27 @@
+algo_mvs.f90(393): warning #6843: A dummy argument with an explicit INTENT(OUT) declaration is not given an explicit value.   [COLFLAG]
+     opflag,colflag,nclo,iclo,jclo,dclo,tclo,ixvclo,jxvclo)
+------------^
+mercury_outputs.f90(279): remark #8291: Recommended relationship between field width 'W' and the number of fractional digits 'D' in this edit descriptor is 'W>=D+7'.
+           write (c(9:37),'(1p,a3,e11.5,a3,e11.5)') ' r=',rceh(j),' d=',rho(j)/rhocgs
+-----------------------------------^
+mercury_outputs.f90(279): remark #8291: Recommended relationship between field width 'W' and the number of fractional digits 'D' in this edit descriptor is 'W>=D+7'.
+           write (c(9:37),'(1p,a3,e11.5,a3,e11.5)') ' r=',rceh(j),' d=',rho(j)/rhocgs
+--------------------------------------------^
+mercury.f90(686): remark #8291: Recommended relationship between field width 'W' and the number of fractional digits 'D' in this edit descriptor is 'W>=D+7'.
+        write (23,'(/,a,1p,e19.13,a)') mem(26)(1:lmem(26)),tstart,mem(1)(1:lmem(1))
+----------------------------^
+mercury.f90(691): remark #8291: Recommended relationship between field width 'W' and the number of fractional digits 'D' in this edit descriptor is 'W>=D+7'.
+        write (23,'(a,1p,e19.13)') mem(27)(1:lmem(27)),tstop
+--------------------------^
+mercury.f90(701): remark #8291: Recommended relationship between field width 'W' and the number of fractional digits 'D' in this edit descriptor is 'W>=D+7'.
+     write (23,'(a,1p1e10.4)') mem(31)(1:lmem(31)),tol
+-----------------------^
+mercury.f90(702): remark #8291: Recommended relationship between field width 'W' and the number of fractional digits 'D' in this edit descriptor is 'W>=D+7'.
+     write (23,'(a,1p1e10.4,a)') mem(32)(1:lmem(32)),m(1)/K2,mem(3)(1:lmem(3))
+-----------------------^
+mercury.f90(706): remark #8291: Recommended relationship between field width 'W' and the number of fractional digits 'D' in this edit descriptor is 'W>=D+7'.
+     write (23,'(a,1p1e10.4,a)') mem(36)(1:lmem(36)),rmax,mem (4)(1:lmem(4))
+-----------------------^
+mercury.f90(707): remark #8291: Recommended relationship between field width 'W' and the number of fractional digits 'D' in this edit descriptor is 'W>=D+7'.
+     write (23,'(a,1p1e10.4,a)') mem(37)(1:lmem(37)),rcen,mem (4)(1:lmem(4))
+-----------------------^
